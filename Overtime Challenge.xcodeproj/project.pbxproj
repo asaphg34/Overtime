@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5773DF72BAB2F1900BF2BB7 /* Overtime_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5773DF62BAB2F1900BF2BB7 /* Overtime_ChallengeApp.swift */; };
+		B5773DF92BAB2F1900BF2BB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5773DF82BAB2F1900BF2BB7 /* ContentView.swift */; };
+		B5773DFB2BAB2F1A00BF2BB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5773DFA2BAB2F1A00BF2BB7 /* Assets.xcassets */; };
+		B5773DFE2BAB2F1A00BF2BB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5773DFD2BAB2F1A00BF2BB7 /* Preview Assets.xcassets */; };
+		B5773E082BAB2F1A00BF2BB7 /* Overtime_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5773E072BAB2F1A00BF2BB7 /* Overtime_ChallengeTests.swift */; };
+		B5773E122BAB2F1A00BF2BB7 /* Overtime_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5773E112BAB2F1A00BF2BB7 /* Overtime_ChallengeUITests.swift */; };
+		B5773E142BAB2F1A00BF2BB7 /* Overtime_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5773E132BAB2F1A00BF2BB7 /* Overtime_ChallengeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5773E042BAB2F1A00BF2BB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5773DEB2BAB2F1800BF2BB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5773DF22BAB2F1900BF2BB7;
+			remoteInfo = "Overtime Challenge";
+		};
+		B5773E0E2BAB2F1A00BF2BB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5773DEB2BAB2F1800BF2BB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5773DF22BAB2F1900BF2BB7;
+			remoteInfo = "Overtime Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5773DF32BAB2F1900BF2BB7 /* Overtime Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Overtime Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5773DF62BAB2F1900BF2BB7 /* Overtime_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overtime_ChallengeApp.swift; sourceTree = "<group>"; };
+		B5773DF82BAB2F1900BF2BB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5773DFA2BAB2F1A00BF2BB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5773DFD2BAB2F1A00BF2BB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5773E032BAB2F1A00BF2BB7 /* Overtime ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Overtime ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5773E072BAB2F1A00BF2BB7 /* Overtime_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overtime_ChallengeTests.swift; sourceTree = "<group>"; };
+		B5773E0D2BAB2F1A00BF2BB7 /* Overtime ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Overtime ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5773E112BAB2F1A00BF2BB7 /* Overtime_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overtime_ChallengeUITests.swift; sourceTree = "<group>"; };
+		B5773E132BAB2F1A00BF2BB7 /* Overtime_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overtime_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5773DF02BAB2F1900BF2BB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5773E002BAB2F1A00BF2BB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5773E0A2BAB2F1A00BF2BB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5773DEA2BAB2F1800BF2BB7 = {
+			isa = PBXGroup;
+			children = (
+				B5773DF52BAB2F1900BF2BB7 /* Overtime Challenge */,
+				B5773E062BAB2F1A00BF2BB7 /* Overtime ChallengeTests */,
+				B5773E102BAB2F1A00BF2BB7 /* Overtime ChallengeUITests */,
+				B5773DF42BAB2F1900BF2BB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5773DF42BAB2F1900BF2BB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5773DF32BAB2F1900BF2BB7 /* Overtime Challenge.app */,
+				B5773E032BAB2F1A00BF2BB7 /* Overtime ChallengeTests.xctest */,
+				B5773E0D2BAB2F1A00BF2BB7 /* Overtime ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5773DF52BAB2F1900BF2BB7 /* Overtime Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				B5773DF62BAB2F1900BF2BB7 /* Overtime_ChallengeApp.swift */,
+				B5773DF82BAB2F1900BF2BB7 /* ContentView.swift */,
+				B5773DFA2BAB2F1A00BF2BB7 /* Assets.xcassets */,
+				B5773DFC2BAB2F1A00BF2BB7 /* Preview Content */,
+			);
+			path = "Overtime Challenge";
+			sourceTree = "<group>";
+		};
+		B5773DFC2BAB2F1A00BF2BB7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B5773DFD2BAB2F1A00BF2BB7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5773E062BAB2F1A00BF2BB7 /* Overtime ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5773E072BAB2F1A00BF2BB7 /* Overtime_ChallengeTests.swift */,
+			);
+			path = "Overtime ChallengeTests";
+			sourceTree = "<group>";
+		};
+		B5773E102BAB2F1A00BF2BB7 /* Overtime ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5773E112BAB2F1A00BF2BB7 /* Overtime_ChallengeUITests.swift */,
+				B5773E132BAB2F1A00BF2BB7 /* Overtime_ChallengeUITestsLaunchTests.swift */,
+			);
+			path = "Overtime ChallengeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5773DF22BAB2F1900BF2BB7 /* Overtime Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5773E172BAB2F1A00BF2BB7 /* Build configuration list for PBXNativeTarget "Overtime Challenge" */;
+			buildPhases = (
+				B5773DEF2BAB2F1900BF2BB7 /* Sources */,
+				B5773DF02BAB2F1900BF2BB7 /* Frameworks */,
+				B5773DF12BAB2F1900BF2BB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Overtime Challenge";
+			productName = "Overtime Challenge";
+			productReference = B5773DF32BAB2F1900BF2BB7 /* Overtime Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5773E022BAB2F1A00BF2BB7 /* Overtime ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5773E1A2BAB2F1A00BF2BB7 /* Build configuration list for PBXNativeTarget "Overtime ChallengeTests" */;
+			buildPhases = (
+				B5773DFF2BAB2F1A00BF2BB7 /* Sources */,
+				B5773E002BAB2F1A00BF2BB7 /* Frameworks */,
+				B5773E012BAB2F1A00BF2BB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5773E052BAB2F1A00BF2BB7 /* PBXTargetDependency */,
+			);
+			name = "Overtime ChallengeTests";
+			productName = "Overtime ChallengeTests";
+			productReference = B5773E032BAB2F1A00BF2BB7 /* Overtime ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5773E0C2BAB2F1A00BF2BB7 /* Overtime ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5773E1D2BAB2F1A00BF2BB7 /* Build configuration list for PBXNativeTarget "Overtime ChallengeUITests" */;
+			buildPhases = (
+				B5773E092BAB2F1A00BF2BB7 /* Sources */,
+				B5773E0A2BAB2F1A00BF2BB7 /* Frameworks */,
+				B5773E0B2BAB2F1A00BF2BB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5773E0F2BAB2F1A00BF2BB7 /* PBXTargetDependency */,
+			);
+			name = "Overtime ChallengeUITests";
+			productName = "Overtime ChallengeUITests";
+			productReference = B5773E0D2BAB2F1A00BF2BB7 /* Overtime ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5773DEB2BAB2F1800BF2BB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B5773DF22BAB2F1900BF2BB7 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					B5773E022BAB2F1A00BF2BB7 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B5773DF22BAB2F1900BF2BB7;
+					};
+					B5773E0C2BAB2F1A00BF2BB7 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B5773DF22BAB2F1900BF2BB7;
+					};
+				};
+			};
+			buildConfigurationList = B5773DEE2BAB2F1800BF2BB7 /* Build configuration list for PBXProject "Overtime Challenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5773DEA2BAB2F1800BF2BB7;
+			productRefGroup = B5773DF42BAB2F1900BF2BB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5773DF22BAB2F1900BF2BB7 /* Overtime Challenge */,
+				B5773E022BAB2F1A00BF2BB7 /* Overtime ChallengeTests */,
+				B5773E0C2BAB2F1A00BF2BB7 /* Overtime ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5773DF12BAB2F1900BF2BB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5773DFE2BAB2F1A00BF2BB7 /* Preview Assets.xcassets in Resources */,
+				B5773DFB2BAB2F1A00BF2BB7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5773E012BAB2F1A00BF2BB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5773E0B2BAB2F1A00BF2BB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5773DEF2BAB2F1900BF2BB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5773DF92BAB2F1900BF2BB7 /* ContentView.swift in Sources */,
+				B5773DF72BAB2F1900BF2BB7 /* Overtime_ChallengeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5773DFF2BAB2F1A00BF2BB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5773E082BAB2F1A00BF2BB7 /* Overtime_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5773E092BAB2F1A00BF2BB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5773E122BAB2F1A00BF2BB7 /* Overtime_ChallengeUITests.swift in Sources */,
+				B5773E142BAB2F1A00BF2BB7 /* Overtime_ChallengeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5773E052BAB2F1A00BF2BB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5773DF22BAB2F1900BF2BB7 /* Overtime Challenge */;
+			targetProxy = B5773E042BAB2F1A00BF2BB7 /* PBXContainerItemProxy */;
+		};
+		B5773E0F2BAB2F1A00BF2BB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5773DF22BAB2F1900BF2BB7 /* Overtime Challenge */;
+			targetProxy = B5773E0E2BAB2F1A00BF2BB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B5773E152BAB2F1A00BF2BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5773E162BAB2F1A00BF2BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5773E182BAB2F1A00BF2BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Overtime Challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = T5MUWJKXVY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Asaph.Overtime-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5773E192BAB2F1A00BF2BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Overtime Challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = T5MUWJKXVY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Asaph.Overtime-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5773E1B2BAB2F1A00BF2BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5MUWJKXVY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Asaph.Overtime-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Overtime Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Overtime Challenge";
+			};
+			name = Debug;
+		};
+		B5773E1C2BAB2F1A00BF2BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5MUWJKXVY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Asaph.Overtime-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Overtime Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Overtime Challenge";
+			};
+			name = Release;
+		};
+		B5773E1E2BAB2F1A00BF2BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5MUWJKXVY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Asaph.Overtime-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Overtime Challenge";
+			};
+			name = Debug;
+		};
+		B5773E1F2BAB2F1A00BF2BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5MUWJKXVY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Asaph.Overtime-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Overtime Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5773DEE2BAB2F1800BF2BB7 /* Build configuration list for PBXProject "Overtime Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5773E152BAB2F1A00BF2BB7 /* Debug */,
+				B5773E162BAB2F1A00BF2BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5773E172BAB2F1A00BF2BB7 /* Build configuration list for PBXNativeTarget "Overtime Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5773E182BAB2F1A00BF2BB7 /* Debug */,
+				B5773E192BAB2F1A00BF2BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5773E1A2BAB2F1A00BF2BB7 /* Build configuration list for PBXNativeTarget "Overtime ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5773E1B2BAB2F1A00BF2BB7 /* Debug */,
+				B5773E1C2BAB2F1A00BF2BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5773E1D2BAB2F1A00BF2BB7 /* Build configuration list for PBXNativeTarget "Overtime ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5773E1E2BAB2F1A00BF2BB7 /* Debug */,
+				B5773E1F2BAB2F1A00BF2BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5773DEB2BAB2F1800BF2BB7 /* Project object */;
+}
