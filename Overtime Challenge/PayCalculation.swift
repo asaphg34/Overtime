@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+protocol PayCalculationProtocol {
+   static func calculateWage(withBasePay basePay:Double, andHours hours:Double) -> Double
+}
+
+class PayCalculation:PayCalculationProtocol {
+   static func calculateWage(withBasePay basePay: Double, andHours hours: Double) -> Double {
+        return -1_000_000
+    }
+    
+    
+}

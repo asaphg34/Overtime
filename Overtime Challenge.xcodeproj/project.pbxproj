@@ -14,6 +14,7 @@
 		B5773E082BAB2F1A00BF2BB7 /* Overtime_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5773E072BAB2F1A00BF2BB7 /* Overtime_ChallengeTests.swift */; };
 		B5773E122BAB2F1A00BF2BB7 /* Overtime_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5773E112BAB2F1A00BF2BB7 /* Overtime_ChallengeUITests.swift */; };
 		B5773E142BAB2F1A00BF2BB7 /* Overtime_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5773E132BAB2F1A00BF2BB7 /* Overtime_ChallengeUITestsLaunchTests.swift */; };
+		B5773E212BAB38A400BF2BB7 /* PayCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5773E202BAB38A400BF2BB7 /* PayCalculation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B5773E0D2BAB2F1A00BF2BB7 /* Overtime ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Overtime ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5773E112BAB2F1A00BF2BB7 /* Overtime_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overtime_ChallengeUITests.swift; sourceTree = "<group>"; };
 		B5773E132BAB2F1A00BF2BB7 /* Overtime_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overtime_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B5773E202BAB38A400BF2BB7 /* PayCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCalculation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				B5773DF82BAB2F1900BF2BB7 /* ContentView.swift */,
 				B5773DFA2BAB2F1A00BF2BB7 /* Assets.xcassets */,
 				B5773DFC2BAB2F1A00BF2BB7 /* Preview Content */,
+				B5773E202BAB38A400BF2BB7 /* PayCalculation.swift */,
 			);
 			path = "Overtime Challenge";
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5773E212BAB38A400BF2BB7 /* PayCalculation.swift in Sources */,
 				B5773DF92BAB2F1900BF2BB7 /* ContentView.swift in Sources */,
 				B5773DF72BAB2F1900BF2BB7 /* Overtime_ChallengeApp.swift in Sources */,
 			);
